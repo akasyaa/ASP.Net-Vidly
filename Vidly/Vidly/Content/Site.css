@@ -34,3 +34,7 @@ table {
 .input-validation-error {
     border: 1px solid red;
 }
+
+.dataTables_length label {
+    margin-top: 15px;
+}
