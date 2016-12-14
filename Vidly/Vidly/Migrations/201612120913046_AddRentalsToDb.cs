@@ -11,7 +11,7 @@ namespace Vidly.Migrations
                 "dbo.Rentals",
                 c => new
                     {
-                        Id = c.Byte(nullable: false),
+                        Id = c.Byte(nullable: false, identity: true),
                         DateRented = c.DateTime(nullable: false),
                         DateReturned = c.DateTime(),
                         Customer_Id = c.Int(nullable: false),
